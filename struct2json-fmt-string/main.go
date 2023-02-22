@@ -31,6 +31,7 @@ func main() {
 	println(test.String())
 }
 
+// convert the struct to fmt json string
 func (args *Test) String() string {
 	b, err := json.Marshal(*args)
 	if err != nil {
