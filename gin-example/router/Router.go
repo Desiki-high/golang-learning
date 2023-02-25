@@ -1,18 +1,10 @@
 package router
 
-import (
-	"github.com/gin-gonic/gin"
-	"golang-learning/gin-example/handler"
-)
+import "github.com/gin-gonic/gin"
 
-func ControllerRouter() *gin.Engine {
+func Router() *gin.Engine {
 	router := gin.Default()
-
-	//路由组
-	RouterGroup := router.Group("/index")
-	{
-		RouterGroup.GET("/get", handler.DemoController)
-	}
+	router = indexRouter(router)
 
 	return router
 }

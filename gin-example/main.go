@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"golang-learning/gin-example/router"
 	"net/http"
 	"time"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -23,9 +24,9 @@ func main() {
 	// gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
 
 	//Listen and Server in localhost:10000
-	r := router.ControllerRouter()
+	r := router.Router()
 	s := &http.Server{
-		Addr:         ":25300",
+		Addr:         ":8848",
 		Handler:      r,
 		ReadTimeout:  10 * time.Second,
 		WriteTimeout: 10 * time.Second,
