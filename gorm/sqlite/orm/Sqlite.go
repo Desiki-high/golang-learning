@@ -2,7 +2,7 @@ package orm
 
 import (
 	"github.com/glebarez/sqlite"
-	"golang-learning/gorm-example/sqlite/orm/entity"
+	"golang-learning/gorm/sqlite/orm/entity"
 	"gorm.io/gorm"
 )
 

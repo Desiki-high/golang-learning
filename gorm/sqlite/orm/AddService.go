@@ -1,7 +1,7 @@
 package orm
 
 import (
-	"golang-learning/gorm-example/sqlite/orm/entity"
+	"golang-learning/gorm/sqlite/orm/entity"
 	"gorm.io/gorm/clause"
 )
 

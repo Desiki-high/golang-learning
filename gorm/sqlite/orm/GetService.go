@@ -1,7 +1,7 @@
 package orm
 
 import (
-	"golang-learning/gorm-example/sqlite/orm/entity"
+	"golang-learning/gorm/sqlite/orm/entity"
 )
 
 //查询不对数据库产生修改，查询失败则返回的结果为零值

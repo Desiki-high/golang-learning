@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang-learning/gorm-example/sqlite/orm"
+	"golang-learning/gorm/sqlite/orm"
 )
 
 func main() {
