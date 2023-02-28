@@ -9,7 +9,7 @@ import (
 var dataBase *gorm.DB
 
 func SqliteConnect() {
-	db, err := gorm.Open(sqlite.Open("gorm-example/sqlite/config.db"), &gorm.Config{})
+	db, err := gorm.Open(sqlite.Open("gorm/sqlite/config.db"), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
 	}

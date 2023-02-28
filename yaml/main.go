@@ -26,7 +26,7 @@ type Log struct {
 }
 
 func main() {
-	yamlFile, err := os.ReadFile("struct-yaml/config.yaml")
+	yamlFile, err := os.ReadFile("yaml/config.yaml")
 	if err != nil {
 		fmt.Println(err.Error())
 	}

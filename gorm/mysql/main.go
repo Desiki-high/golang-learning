@@ -23,7 +23,7 @@ type Config struct {
 
 func main() {
 	//解析MySQL连接参数
-	yamlFile, err := os.ReadFile("gorm-example/mysql/config.yaml")
+	yamlFile, err := os.ReadFile("gorm/mysql/config.yaml")
 	if err != nil {
 		fmt.Println(err.Error())
 	}
