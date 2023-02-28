@@ -1,2 +1,1 @@
-# golang-learning
 learning golang
