@@ -1,7 +1,7 @@
 package router
 
 import (
-	"golang-learning/gin-example/handler"
+	"golang-learning/gin/handler"
 
 	"github.com/gin-gonic/gin"
 )

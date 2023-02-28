@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang-learning/gin-example/router"
+	"golang-learning/gin/router"
 	"net/http"
 	"time"
 

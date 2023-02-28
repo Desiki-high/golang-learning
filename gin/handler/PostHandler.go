@@ -2,7 +2,7 @@ package handler
 
 import (
 	"fmt"
-	"golang-learning/gin-example/model"
+	"golang-learning/gin/model"
 	"net/http"
 	"reflect"
 

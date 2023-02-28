@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"golang-learning/gin-example/model"
+	"golang-learning/gin/model"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
