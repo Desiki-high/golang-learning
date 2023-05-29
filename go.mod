@@ -17,8 +17,8 @@ require (
 	go.etcd.io/bbolt v1.3.7
 	golang.org/x/sync v0.1.0
 	gopkg.in/yaml.v3 v3.0.1
-	gorm.io/datatypes v1.1.0
-	gorm.io/driver/mysql v1.4.4
+	gorm.io/datatypes v1.2.0
+	gorm.io/driver/mysql v1.4.7
 	gorm.io/gorm v1.25.1
 )
 
@@ -70,7 +70,7 @@ require (
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
-	golang.org/x/crypto v0.5.0 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
