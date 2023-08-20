@@ -2,9 +2,10 @@ package main
 
 import (
 	"errors"
-	"golang.org/x/sync/singleflight"
 	"log"
 	"sync"
+
+	"golang.org/x/sync/singleflight"
 )
 
 var errorNotExist = errors.New("not exist")
@@ -13,7 +14,7 @@ var gsf singleflight.Group
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(10)
-
+	
 	//模拟10个并发
 	for i := 0; i < 10; i++ {
 		go func() {
