@@ -8,7 +8,7 @@ require (
 	github.com/go-resty/resty/v2 v2.8.0
 	github.com/golang/mock v1.6.0
 	github.com/hashicorp/golang-lru/v2 v2.0.6
-	github.com/redis/go-redis/v9 v9.1.0
+	github.com/redis/go-redis/v9 v9.2.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shirou/gopsutil/v3 v3.23.8
 	github.com/sirupsen/logrus v1.9.3
