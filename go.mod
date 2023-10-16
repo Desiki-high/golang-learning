@@ -19,7 +19,7 @@ require (
 	golang.org/x/sync v0.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/datatypes v1.2.0
-	gorm.io/driver/mysql v1.5.1
+	gorm.io/driver/mysql v1.5.2
 	gorm.io/gorm v1.25.4
 )
 
