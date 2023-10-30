@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/gin-gonic/gin v1.9.1
-	github.com/glebarez/sqlite v1.9.0
+	github.com/glebarez/sqlite v1.10.0
 	github.com/go-resty/resty/v2 v2.10.0
 	github.com/golang/mock v1.6.0
 	github.com/hashicorp/golang-lru/v2 v2.0.7
