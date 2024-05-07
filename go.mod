@@ -16,7 +16,7 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.27.1
 	go.etcd.io/bbolt v1.3.9
-	golang.org/x/sync v0.6.0
+	golang.org/x/sync v0.7.0
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/datatypes v1.2.0
 	gorm.io/driver/mysql v1.5.6
