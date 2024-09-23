@@ -19,7 +19,7 @@ require (
 	go.etcd.io/bbolt v1.3.11
 	golang.org/x/sync v0.8.0
 	gopkg.in/yaml.v3 v3.0.1
-	gorm.io/datatypes v1.2.1
+	gorm.io/datatypes v1.2.2
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.25.11
 )
