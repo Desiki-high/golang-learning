@@ -1,6 +1,7 @@
 module golang-learning
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	github.com/gin-gonic/gin v1.10.0
@@ -15,7 +16,7 @@ require (
 	github.com/spf13/viper v1.19.0
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.27.4
-	go.etcd.io/bbolt v1.3.10
+	go.etcd.io/bbolt v1.3.11
 	golang.org/x/sync v0.8.0
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/datatypes v1.2.1
