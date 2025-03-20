@@ -1,7 +1,7 @@
 module golang-learning
 
 go 1.21
-toolchain go1.22.5
+toolchain go1.24.1
 
 require (
 	github.com/gin-gonic/gin v1.10.0
@@ -9,7 +9,7 @@ require (
 	github.com/go-resty/resty/v2 v2.15.3
 	github.com/golang/mock v1.6.0
 	github.com/hashicorp/golang-lru/v2 v2.0.7
-	github.com/redis/go-redis/v9 v9.6.1
+	github.com/redis/go-redis/v9 v9.6.3
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/sirupsen/logrus v1.9.3
